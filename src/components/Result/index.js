@@ -44,7 +44,7 @@ class Result extends Component {
                 </StyledItem>
                 <StyledItem>
                     <FontAwesomeIcon icon={faKey} color="#636e72" />&nbsp;
-                    <StyledLabel>Message:</StyledLabel>{message && ''}
+                    <StyledLabel>Message:</StyledLabel>{message || ''}
                 </StyledItem>
             </StyledList>
         );

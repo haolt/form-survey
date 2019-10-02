@@ -8,7 +8,7 @@ class FTextarea extends Component {
     }
     render() {
         return (
-            <StyledTextarea  rows="5" onChange={($event) => this.handleChangeTexarea($event)}></StyledTextarea>
+            <StyledTextarea rows="5" onChange={($event) => this.handleChangeTexarea($event)}></StyledTextarea>
         );
     }
 }
